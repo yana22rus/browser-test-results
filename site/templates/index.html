@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form  method="POST" action="/">
+{% for x in lst %}
+
+<p>{{x}} <input type="checkbox" value="{{x}}" name="mycheckbox"></p>
+{%endfor %}
+    <input type="submit">
+</form>
+</body>
+</html>

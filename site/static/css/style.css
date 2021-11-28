@@ -1,0 +1,8 @@
+.passed_test {
+    font-size: 20px;
+    color: green;
+}
+.failed_test {
+    font-size: 20px;
+    color: red;
+}
